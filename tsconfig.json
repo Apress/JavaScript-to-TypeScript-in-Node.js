@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/node12/tsconfig.json",
+    "compilerOptions": {
+      "target": "es2015", 
+      "module": "esnext", 
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "allowJs": false,
+      "declaration": true,
+      "esModuleInterop": true,
+      // "declarationDir": "./dist/declare"
+    },
+    "include": ["./**/*"],
+    "exclude": ["./dist", "./api", "node_modules"]
+}
